@@ -1,0 +1,125 @@
+header{
+    background-color: teal;
+    color: white;
+}
+
+img{
+    max-width:100%;
+    vertical-align:top;
+}
+ .centrado {
+    text-align: center;
+}
+h1{
+    color: white;
+    text-shadow: 3px 4px 3px rgb(0,0,0,1)
+}
+h3{
+    text-align: center ;
+     ;
+}
+h3:hover{
+    color: black;
+}
+h2{
+    background-color:limegreen;
+    border-color:black;
+    border-width: 5px;
+    border-style: double;
+    text-align: center;
+    text-shadow: 2px 3px 2px rgb(0,0,0,1)
+    
+}
+table{
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+th{
+    background-color: brown;
+    color: white;
+}
+caption{
+    padding-top: 20px;
+    font-style: italic;
+}
+td,th{
+    text-align: center;
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    text-align: justify;
+    font-family: "Verdana";
+    font-size: 120%;
+    font-weight: bold;
+}
+p::selection{
+    background-color: orange;
+}
+.formulario{
+    text-align: center;
+    width: auto;
+    max-width: auto;
+    margin: auto;
+    background: rgba(18, 208, 221, 0.562);
+    border-radius: 7px;
+    font-weight: bold;
+}
+input{
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16xp;
+    border-radius: 3px;
+    border: 1px;
+}
+button{
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16xp;
+    border-radius: 3px;
+    border: 1px;
+    background-color: rebeccapurple;
+    color: white;
+}
+.main{
+    width: 80%;
+    margin: auto;
+}
+video{
+    width: 100%;
+}
+.redes{
+    background-color: palegoldenrod;
+    height: 200px;
+    padding: 30px;
+
+}
+.sociales{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.sociales li{
+    display: inline-block;
+}
+.sociales a{
+    padding: 20px;
+}
+footer{
+    color: navy;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 100%;
+    font-weight: bold;
+}
+footer::selection{
+    background-color: red;
+}
